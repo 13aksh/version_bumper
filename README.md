@@ -8,6 +8,6 @@ A pre-commit hook that enforces version.md patch bumps when code changes are mad
 ```yaml
 repos:
   - repo: https://github.com/13aksh/version_bumper
-    rev: v1.0.0
+    rev: v1.0.2
     hooks:
       - id: version-bumper
