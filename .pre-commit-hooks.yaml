@@ -2,7 +2,7 @@
 - id: version-bumper
   name: Enforce version.md patch bump
   entry: version_bumper.py
-  language: python
+  language: script
   pass_filenames: false
   description: "If version.md is not changed, increment patch version, stage it, and fail."
   stages: [commit]
