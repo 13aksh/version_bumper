@@ -1,0 +1,8 @@
+# .pre-commit-hooks.yaml
+- id: version-bumper
+  name: Enforce version.md patch bump
+  entry: version_bumper.py
+  language: python
+  pass_filenames: false
+  description: "If version.md is not changed, increment patch version, stage it, and fail."
+  stages: [commit]
